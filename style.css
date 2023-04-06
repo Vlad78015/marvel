@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url(https://upload.wikimedia.org/wikipedia/ru/f/f3/Арт-обложка_Саги_Бесконечности_КВМ.jpeg);
+    background-size: cover;
+}
+.card {
+    width: 500px;
+    height: 600px;
+    margin: 30px 0 0 30px;
+    border: 14px inset #ff0080;
+    border-radius: 20px;
+    background: linear-gradient(#ff6f00, #ff0000);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__title {
+    text-shadow: 1px 0 1px #000;
+    transition: 0.5s;
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+}
+.card__info {
+    text-shadow: 1px 0 1px #000;
+    transition: 0.4s;
+    font-style: italic;
+    color: rgb(11, 244, 244);
+    text-align: center;
+    font-size: 28px;
+}
+.card__image {
+    margin-top: 50px;
+    width: 200px;
+}
+.card__box {
+    justify-content: space-between;/* рухає елементи на лінії */
+    display: flex; /* запускає флекс і виштовхує всі елементи на одній лінії */
+    align-items: center; /* рухає лінію */
+    /* flex-direction: column; перетворює флекс в колонку */
+    height: 200px;
+    width: 400px;
+}
+.box__text {
+    text-shadow: 1px 0 1px #000;
+    transition: 0.4s;
+    font-size: 30px;
+    color: rgb(255, 247, 0);
+}
+.box__image {
+    width: 90px;
+}
+.box__price {
+    text-align: right;
+    text-shadow: 1px 0 1px #000;
+    transition: 0.4s;
+    font-size: 30px;
+    color: chartreuse;
+}
+.box__price:hover{
+    color: rgb(191, 0, 255);
+    font-size: 30px;
+    cursor: pointer;
+}
+.box__text:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+.card__title:hover{
+    color: gold;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.card__info:hover{
+    cursor: pointer;
+    color: rgb(150, 252, 7);
+    letter-spacing: 3px;
+}
+
+
+
+.card-2 {
+    width: 500px;
+    height: 600px;
+    margin: -600px 550px;
+    border: 14px inset #ffd500f4;
+    border-radius: 20px;
+    background:linear-gradient(#1377d4, #11ccb9);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-2__title {
+    transition: 0.4s;
+    text-shadow: 1px 0 1px #000;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: rgb(77, 231, 30);
+}
+.card-2__info {
+    transition: 0.4s;
+    text-shadow: 1px 0 1px #000;
+    font-style: italic;
+    color: rgb(223, 168, 15);
+    text-align: center;
+    font-size: 28px;
+}
+.card-2__image {
+    margin-top: 50px;
+    width: 200px;
+}
+.card-2__box {
+    justify-content: space-between;/* рухає елементи на лінії */
+    display: flex; /* запускає флекс і виштовхує всі елементи на одній лінії */
+    align-items: center; /* рухає лінію */
+    /* flex-direction: column; перетворює флекс в колонку */
+    height: 200px;
+    width: 400px;
+}
+.box-2__text {
+    text-shadow: 1px 0 1px #000;
+    transition: 0.4s;
+    font-size: 30px;
+    color: rgb(255, 247, 0);
+}
+.box-2__image {
+    width: 80px;
+}
+.box-2__price {
+    text-align: right;
+    text-shadow: 1px 0 1px #000;
+    transition: 0.4s;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+.box-2__price:hover{
+    color: rgb(39, 255, 6);
+    font-size: 30px;
+    cursor: pointer;
+}
+.box-2__text:hover{
+    cursor: pointer;
+    color: rgb(174, 58, 232);
+}
+.card-2__title:hover{
+    cursor: pointer;
+    color: chocolate;
+}
+.card-2__info:hover{
+    color: rgb(234, 22, 128);
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.card-3 {
+    width: 500px;
+    height: 600px;
+    margin: -600px 1070px;
+    border: 14px inset #09ff00f4;
+    border-radius: 20px;
+    background:linear-gradient(#13d463, #07dbc6);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-3__title {
+    transition: 0.4s;
+    text-shadow: 1px 0 1px #000;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: rgb(231, 231, 30);
+}
+.card-3__info {
+    transition: 0.4s;
+    text-shadow: 1px 0 1px #000;
+    font-style: italic;
+    color: rgb(42, 16, 242);
+    text-align: center;
+    font-size: 28px;
+}
+.card-3__image {
+    transition: 0.7s;
+    height: 150px;
+    margin-top: 50px;
+    width: 200px;
+}
+.card-3__box {
+    justify-content: space-between;/* рухає елементи на лінії */
+    display: flex; /* запускає флекс і виштовхує всі елементи на одній лінії */
+    align-items: center; /* рухає лінію */
+    /* flex-direction: column; перетворює флекс в колонку */
+    height: 200px;
+    width: 400px;
+}
+.box-3__text {
+    text-shadow: 1px 0 1px #000;
+    transition: 0.4s;
+    font-size: 30px;
+    color: rgb(255, 170, 0);
+}
+.box-3__image {
+    width: 80px;
+}
+.box-3__price {
+    text-align: right;
+    text-shadow: 1px 0 1px #000;
+    transition: 0.4s;
+    font-size: 30px;
+    color: rgb(255, 77, 0);
+}
+.box-3__price:hover{
+    color: rgb(6, 193, 255);
+    cursor: pointer;
+}
+.box-3__text:hover{
+    cursor: pointer;
+    color: rgb(182, 254, 26);
+}
+.card-3__title:hover{
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: rgb(30, 180, 210);
+}
+.card-3__info:hover{
+    color: rgb(234, 22, 128);
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.card-3__image:hover{
+    cursor: pointer;
+}
+
+.card-2__image:hover{
+    cursor: pointer;
+}
+
+.card__image:hover{
+    cursor: pointer;
+}
